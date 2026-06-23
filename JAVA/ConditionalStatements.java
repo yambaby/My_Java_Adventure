@@ -30,8 +30,20 @@ class If{
         
         int temp = 32;
 
-        if (temp > 30)
+        if (temp > 30){
             System.out.println("It's a hot day");
+            System.out.println("Drink water"); //only need curly bracket if multiple statements, otherwise it's not really needed
+        } 
+        else if (temp > 20 && temp <= 30){
+            System.out.println("Beautiful day");
+        } 
+        else
+            System.out.println("Cold day");
+        }
 
-    }
+        int income = 120_000;
+        if (income > 100_000){
+            
+        }
+
 }
