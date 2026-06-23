@@ -1,0 +1,101 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "If",
+      "request": "launch",
+      "mainClass": "JAVA.If",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "ConditionalStatements",
+      "request": "launch",
+      "mainClass": "JAVA.ConditionalStatements",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Project1",
+      "request": "launch",
+      "mainClass": "JAVA.Project1",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "scannerClass",
+      "request": "launch",
+      "mainClass": "JAVA.scannerClass",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "mathClass",
+      "request": "launch",
+      "mainClass": "JAVA.mathClass",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Arithmetics",
+      "request": "launch",
+      "mainClass": "JAVA.Arithmetics",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Array",
+      "request": "launch",
+      "mainClass": "JAVA.Array",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Hello",
+      "request": "launch",
+      "mainClass": "JAVA.Hello",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Practice",
+      "request": "launch",
+      "mainClass": "JAVA.Practice",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Helloworld",
+      "request": "launch",
+      "mainClass": "JAVA.Helloworld",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Helloworld",
+      "request": "launch",
+      "mainClass": "Helloworld",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/KEIJI/C++ Projects/All Programming Languages",
+      "program": "c:/Users/KEIJI/C++ Projects/All Programming Languages/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
