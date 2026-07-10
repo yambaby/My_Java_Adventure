@@ -1,0 +1,83 @@
+DATABASE - collection of data stored in a format that can be easily accessed
+
+Database Management System - manages database. connect to dbms and send instructions to modify data
+2 TYPES:
+Relational - store data in tables that are linked to each other using relationships
+Non Relational / NoSQL - they have their own query language
+
+Structured Query Language (SQL) - programming language used to work with relational database. used to query or modify data
+RDBMS MySQL
+Oracle
+
+QUERIES
+
+USE - selecting schemas
+SELECT - retrieve data
+FROM - where the data is to be retrieved from
+WHERE - filter data or search specific data
+ORDER BY - used to sort data by a specific condition
+-- - comment
+
+- u can also put all of the data u wanna retrieve line by line or in 1 line.
+AS - u can rename the table with this keyword
+
+- to rename table with space, u can do it by surrounding 
+ * - select all data to retrieve
+DISTINCT - retrieve unique list of data (no similar values)
+
+AND
+OR
+NOT
+
+AND first then OR, can use ()
+OR 
+
+SELECT *
+FROM customers
+WHERE birth_date >= '1990-01-01' OR points > 1000 AND state = 'VA'
+
+SELECT *
+FROM order_items
+WHERE order_id = 6 AND (unit_price * quantity) > 30
+
+IN - compiles all the necessary conditions into a clean one command. used in where clause to reduce use of multiple or conditions.
+WHERE state(column) IN ('VA', 'FL', 'GA')(values)
+
+SELECT *
+FROM products
+WHERE quantity_in_stock IN ('49', '38', '72')
+
+BETWEEN - used for range of values
+
+SELECT *
+FROM customers
+WHERE birth_date BETWEEN '1990-01-01' AND '2000-01-01'
+
+LIKE
+% - "any number of characters". example: b% = any values that starts with b and have any number of characters after b. doesn't matter if uppercase or lowercase
+any position (%b% - any word that has b)
+_ - "represents a single character". tells how many number of characters (_b - any two-letter word that ends with b)
+
+SELECT *
+FROM customers
+WHERE (address LIKE '%TRAIL%' OR 
+address LIKE '%AVENUE%') AND
+phone LIKE '%4'
+
+REGEXP (regular expression) - searching strings
+^ - gets put at the beginning of the string. indicate beginning of a string (^field - any values that starts with field)
+$ - gets put at the end of the string. used to find values that ends with the entered string (field$ - words ending with field)
+| - multiple search patterns. represents or (field|mac - find values that have field or mac)
+[] represents a single character ('[gim]e' - find values that has either ge, ie, or me)
+u can also use -(dash) to represent range ('[a-h]e' - any words with an e starting with a-h)
+
+WHERE first_name REGEXP 'ELKA|AMBUR' - first names are ELKA or AMBUR
+WHERE last_name REGEXP 'ON$|EY$' - last names end with EY or ON
+WHERE last_name REGEXP '^MY|SE' - last names start with MY or contains Se 
+WHERE last_name REGEXP 'B[ru]' - last names contain B followed by R or U
+
+
+
+
+
+

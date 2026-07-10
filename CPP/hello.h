@@ -1,1 +1,0 @@
-int number(int a, int b);

@@ -14,25 +14,35 @@ public class Array {
         int[] numbers = new int[5]; 
         numbers[0] = 1;
         numbers[1] = 2;
+        System.out.println(Arrays.toString(numbers)); 
+    }   
+    
+}
 
-        int[] re = {2, 3, 4, 5, 1};
+class ArrayWithGiven{
+    public static void main(String[] args){
+    int[] re = {2, 3, 4, 5, 1};
         Arrays.sort(re);
         System.out.println(Arrays.toString(re));
         System.out.println(re.length);
-        System.out.println(Arrays.toString(numbers));
+    }
+}
 
+class TwoDimensionalArray{
+    public static void main(String[] args){
         int[][] twoDimensionalArray = new int[2][2]; // first [] is row, while second [] is column
         twoDimensionalArray[0][0] = 1;
         System.out.println(Arrays.deepToString(twoDimensionalArray));
 
         int[][] twoDimensional = { {1, 2, 3}, {4, 5, 6} };
         System.out.println(Arrays.deepToString(twoDimensional));
+    }
+}
 
+class ThreeDimensionalArray{
+    public static void main(String[] args){
         int[][][] threeDimensionalArray = new int[2][2][2];
         threeDimensionalArray[0][0][0] = 2;
         System.out.println(Arrays.deepToString(threeDimensionalArray));
-
-        
-    }   
-    
+    }
 }

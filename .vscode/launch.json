@@ -3,6 +3,125 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ScannerClass",
+      "request": "launch",
+      "mainClass": "JAVA.ScannerClass",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "SwitchStatements",
+      "request": "launch",
+      "mainClass": "JAVA.SwitchStatements",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "PrimitiveTypes",
+      "request": "launch",
+      "mainClass": "JAVA.PrimitiveTypes",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "CreatingObjects",
+      "request": "launch",
+      "mainClass": "OOP.CreatingObjects",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Drafts",
+      "request": "launch",
+      "mainClass": "JAVA.Drafts",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Polymorphism",
+      "request": "launch",
+      "mainClass": "OOP.Polymorphism",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Inheritance",
+      "request": "launch",
+      "mainClass": "OOP.Inheritance",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Encapsulation",
+      "request": "launch",
+      "mainClass": "OOP.Encapsulation",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Constructors",
+      "request": "launch",
+      "mainClass": "OOP.Constructors",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Abstraction",
+      "request": "launch",
+      "mainClass": "OOP.Abstraction",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Polymorphism",
+      "request": "launch",
+      "mainClass": "JAVA.Polymorphism",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Inheritance",
+      "request": "launch",
+      "mainClass": "JAVA.Inheritance",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Encapsulation",
+      "request": "launch",
+      "mainClass": "JAVA.Encapsulation",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Constructors",
+      "request": "launch",
+      "mainClass": "JAVA.Constructors",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Loops",
+      "request": "launch",
+      "mainClass": "JAVA.Loops",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "SwitchStatements",
+      "request": "launch",
+      "mainClass": "JAVA.SwitchStatements",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
+      "name": "Ternary",
+      "request": "launch",
+      "mainClass": "JAVA.Ternary",
+      "projectName": "All Programming Languages_34fbe1d"
+    },
+    {
+      "type": "java",
       "name": "If",
       "request": "launch",
       "mainClass": "JAVA.If",

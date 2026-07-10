@@ -2,11 +2,11 @@ package JAVA;
 
 import java.awt.*;
 
-public class Hello {
+public class Drafts {
 
     public static void main(String[] args){
         Point point1 = new Point(1,1); 
-        Point point2 = point1;
+        Point point2 = point1; //both point1 and point 2 point to the same object
 
         point1.x = 2;
 
