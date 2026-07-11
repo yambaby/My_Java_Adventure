@@ -43,9 +43,22 @@ class Cat extends Animal {
 }
 
 Access Modifiers
-void (no access modifiers)    // package-private (same package only)
+default (no access modifiers)    // package-private (same package only)
 public  // accessible from any package
 private // only inside the same class
+protected // same package or subclasses anywhere
+
+Ask yourself:
+
+Does another class need this?
+
+Yes = public
+
+No = private
+
+Only subclasses? = protected
+
+Only package? = Default
 
 */
 

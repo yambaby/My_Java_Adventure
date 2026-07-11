@@ -1,9 +1,9 @@
-package JAVA;
+package ACTIVITIES;
 
 import java.text.NumberFormat;
 import java.util.Scanner;
 
-public class Project1 {
+public class Mortgage {
     
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);

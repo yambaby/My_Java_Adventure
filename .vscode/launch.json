@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Calculator",
+      "request": "launch",
+      "mainClass": "ACTIVITIES.Calculator",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Mortgage",
+      "request": "launch",
+      "mainClass": "ACTIVITIES.Mortgage",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
       "name": "ScannerClass",
       "request": "launch",
       "mainClass": "JAVA.ScannerClass",

@@ -3,7 +3,6 @@ package JAVA;
 import java.awt.*;
 
 public class Drafts {
-
     public static void main(String[] args){
         Point point1 = new Point(1,1); 
         Point point2 = point1; //both point1 and point 2 point to the same object

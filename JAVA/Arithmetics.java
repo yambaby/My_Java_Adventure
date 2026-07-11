@@ -3,17 +3,7 @@ package JAVA;
 import java.text.NumberFormat;
 
 
-public class Practice {
-    
-    public static void main(String[] args){
-        System.out.println("hello, \\liam\\keiji\\"); //backslash
-        System.out.println("Hello, \"Liam\""); // double quotes
-        System.out.println("Liam \nKeiji"); // new line
-        System.out.println("Liam \tKeiji"); // tab
-    }
-}
-
-class Arithmetics{
+public class Arithmetics {
     
     public static void main(String[] args){
         double result = (double)10 / (double)3;
@@ -51,7 +41,7 @@ class Arithmetics{
         //DOuble.parseDouble -> double
         System.out.println(r);
     }
- 
+
 }
 
 class mathClass{
