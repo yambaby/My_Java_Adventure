@@ -16,6 +16,12 @@ public class Loops {
             i++;
         }
 
+        short t = 0;
+        do {
+            System.out.println("tite");
+            t++;
+        } while (t < 4);
+
     }
 
 }

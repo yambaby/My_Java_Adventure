@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Stacks",
+      "request": "launch",
+      "mainClass": "DSA.Stacks",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Prac2",
+      "request": "launch",
+      "mainClass": "Practice.Prac2",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "LinkedList",
+      "request": "launch",
+      "mainClass": "DSA.LinkedList",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Loops",
+      "request": "launch",
+      "mainClass": "JAVA.Loops",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Grade",
+      "request": "launch",
+      "mainClass": "ACTIVITIES.Grade",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
       "name": "Calculator",
       "request": "launch",
       "mainClass": "ACTIVITIES.Calculator",

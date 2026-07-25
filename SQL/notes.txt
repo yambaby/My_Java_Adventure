@@ -76,6 +76,7 @@ WHERE last_name REGEXP 'ON$|EY$' - last names end with EY or ON
 WHERE last_name REGEXP '^MY|SE' - last names start with MY or contains Se 
 WHERE last_name REGEXP 'B[ru]' - last names contain B followed by R or U
 
+IS NULL - used for finding null values
 
 
 
