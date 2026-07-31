@@ -21,7 +21,7 @@ public class Array {
 
 class ArrayWithGiven{
     public static void main(String[] args){
-    int[] re = {2, 3, 4, 5, 1};
+        int[] re = {2, 3, 4, 5, 1};
         Arrays.sort(re);
         System.out.println(Arrays.toString(re));
         System.out.println(re.length);

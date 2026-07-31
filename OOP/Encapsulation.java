@@ -28,8 +28,6 @@ public class Encapsulation {
 
         System.out.println("Final Balance: " + account.getBalance());
 
-        // account.balance = 100000; ❌ ERROR
-        // balance is private and cannot be accessed directly
     }
 }
 

@@ -48,16 +48,22 @@ public class Stacks {
                 return;
             }
 
-            int i = 0;
-            while (i < maxSize - 1){
-                System.out.print("[" + data[i] + "] --> ");
-                i++;
-            }
+            for (int i = top; i >= 0; i--){
+                if (i == top){
+                    System.out.println("[" + data[i] + "] - TOP");
+                    System.out.println(" |");
+                    System.out.println(" v");
+                }
 
-            int index = maxSize;
-            if(index == maxSize){
-                System.out.println("[" + data[i] + "]");
-            }
+                else{
+                    System.out.println("[" + data[i] + "]");
+                        if (i != 0) {
+                            System.out.println(" |");
+                            System.out.println(" v");
+                        }
+                }
+
+           }
         }
     }
 

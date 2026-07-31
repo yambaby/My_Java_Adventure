@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LibrarySystem",
+      "request": "launch",
+      "mainClass": "ACTIVITIES.LibrarySystem",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Rotator",
+      "request": "launch",
+      "mainClass": "ACTIVITIES.Rotator",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "FrequencyCounter",
+      "request": "launch",
+      "mainClass": "ACTIVITIES.FrequencyCounter",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "GradeActivity2",
+      "request": "launch",
+      "mainClass": "ACTIVITIES.GradeActivity2",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Reverse",
+      "request": "launch",
+      "mainClass": "ACTIVITIES.Reverse",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
       "name": "Stacks",
       "request": "launch",
       "mainClass": "DSA.Stacks",

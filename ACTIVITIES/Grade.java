@@ -11,28 +11,30 @@ public class Grade {
         System.out.print("Student: ");
         String student = grade.nextLine();
 
-        System.out.print("Grade #1: ");
-        int one = grade.nextInt();
+        System.out.print("Enter number of grades to input: ");
+        int amount = grade.nextInt();
 
-        System.out.print("Grade #2: ");
-        int two = grade.nextInt();
+        int[] grades = new int[amount];
 
-        System.out.print("Grade #3: ");
-        int three = grade.nextInt();
+        for (int i = 0; i < amount; i++){
+            System.out.print("Grade #" + (i + 1) + ": ");
+            grades[i] = grade.nextInt();
+            
+        }
 
-        System.out.print("Grade #4: ");
-        int four = grade.nextInt();
+        int sum = grades[0];
 
-        System.out.print("Grade #5: ");
-        int five = grade.nextInt();
+        for (int index = 1; index < amount; index++){
+            sum += grades[index];
+        }
 
-        float avg = (one + two + three + four + five) / 5;
+        float average = (float) sum / amount;
 
         System.out.print("Average: ");
-        System.out.printf("%.1f%n", avg);
+        System.out.printf("%.1f%n", average);
         System.out.println();
 
-        if (avg >= 75){
+        if (average >= 75){
             System.out.println("Result: Passed");
         }
 

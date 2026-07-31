@@ -101,6 +101,7 @@ public class LinkedList {
 
                 default:
                     System.out.println("Invalid choice.");
+                    break;
             }
         }
     }

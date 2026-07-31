@@ -60,6 +60,10 @@ Only subclasses? = protected
 
 Only package? = Default
 
+instance variables - variables that belong to an object of a class
+this - means "this object"
+ex. Student liam = new Student(liam);
+since the constructor said this.name = name, it means liam.name = name.
 */
 
 public class CreatingObjects {
@@ -77,6 +81,7 @@ public class CreatingObjects {
 
         liam.money = 10000;
 
+        //without constructor, u can assign variables in main instead of initializing it in the creating of objects (ex. u won't be needing Date now = new Date("15, "Liam"))
         now.age = 15;
         now.name = "Liam";
         nowTwo.age = 32;
@@ -103,4 +108,9 @@ class Date{
         System.out.println("woof!");
     }
 
+}
+
+class CreatingObjectTwo{
+
+    
 }
