@@ -27,6 +27,8 @@ public class Rotator {
             System.out.print(arr + " ");
         }
 
+        scanner.close();
+
     }
 
     static void rotator(int[] array, int shift){

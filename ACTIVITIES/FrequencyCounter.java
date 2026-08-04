@@ -21,6 +21,8 @@ public class FrequencyCounter {
 
         uniqueElements(array);
 
+        scanner.close();
+
     }
 
     static void uniqueElements(int[] array){

@@ -13,5 +13,6 @@ public class ScannerClass {
         
         System.out.println("Your name: " + name);
 
+        scanner.close();
     }
 }

@@ -27,6 +27,8 @@ public class GradeActivity2 {
         int average = average(grades);
         System.out.println("Average: " + average);
         System.out.println("Letter: " + letter(average));
+
+        scanner.close();
     }
 
     static int highestGrade(int[] grades){

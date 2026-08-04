@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Arraylist",
+      "request": "launch",
+      "mainClass": "JAVA.Arraylist",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "ACTIVITIES.Palindrome",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "StringReverse",
+      "request": "launch",
+      "mainClass": "ACTIVITIES.StringReverse",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
       "name": "LibrarySystem",
       "request": "launch",
       "mainClass": "ACTIVITIES.LibrarySystem",

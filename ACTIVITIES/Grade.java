@@ -30,6 +30,7 @@ public class Grade {
 
         float average = (float) sum / amount;
 
+        System.out.print("Name: " + student);
         System.out.print("Average: ");
         System.out.printf("%.1f%n", average);
         System.out.println();
