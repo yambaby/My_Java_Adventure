@@ -26,7 +26,8 @@ public class LinkedList {
             System.out.println("3. Insert after a position");
             System.out.println("4. Delete a node by position");
             System.out.println("5. Print the list");
-            System.out.println("6. Exit");
+            System.out.println("6. Reverse the list");
+            System.out.println("7. Exit");
             System.out.print("Enter your choice: ");
 
             int choice;
@@ -93,8 +94,12 @@ public class LinkedList {
                 case 5:
                     printList();
                     break;
-
+                
                 case 6:
+                    reverse();;
+                    break;
+
+                case 7:
                     System.out.println("Exiting...");
                     scanner.close();
                     return;
@@ -207,6 +212,27 @@ public class LinkedList {
             current = current.next;
             index++;
         }
+    }
+
+    static void reverse(){
+        if (head == null) {
+            System.out.println("[Empty List]");
+            return;
+        }
+
+        Node current = head;
+        Node previous = null;
+        Node next;
+
+        while (current != null){
+            next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+        }  
+
+        head = previous;
+        printList();
     }
 }
 

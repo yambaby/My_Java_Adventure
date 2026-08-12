@@ -71,7 +71,6 @@ public class Stacks {
     public static void main(String args[]){
         Stack stack = new Stack();
         while(true){
-
             System.out.println("MENU");
             System.out.println("1. PUSH");
             System.out.println("2. POP");

@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Arrayliststaks$Sta",
+      "request": "launch",
+      "mainClass": "DSA.Arrayliststaks$Sta",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Arrayliststaks",
+      "request": "launch",
+      "mainClass": "DSA.Arrayliststaks",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "ArraylistKyu",
+      "request": "launch",
+      "mainClass": "DSA.ArraylistKyu",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
+      "name": "Queue",
+      "request": "launch",
+      "mainClass": "DSA.Queue",
+      "projectName": "My Java Adventure_ef4c218e"
+    },
+    {
+      "type": "java",
       "name": "Arraylist",
       "request": "launch",
       "mainClass": "JAVA.Arraylist",

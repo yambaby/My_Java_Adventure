@@ -11,19 +11,21 @@ Oracle
 
 QUERIES
 
+ORDER OF QUERY
 USE - selecting schemas
 SELECT - retrieve data
 FROM - where the data is to be retrieved from
 WHERE - filter data or search specific data
 ORDER BY - used to sort data by a specific condition
 -- - comment
+LIMIT - limit of records to produce
 
 - u can also put all of the data u wanna retrieve line by line or in 1 line.
 AS - u can rename the table with this keyword
 
 - to rename table with space, u can do it by surrounding 
  * - select all data to retrieve
-DISTINCT - retrieve unique list of data (no similar values)
+DISTINCT - retrieve unique list of data (no similar values) -- SELECT DISTINCT state
 
 AND
 OR
@@ -78,7 +80,28 @@ WHERE last_name REGEXP 'B[ru]' - last names contain B followed by R or U
 
 IS NULL - used for finding null values
 
+DEsC - descending
 
+u can put anything in order by,even outside the select clause as long as it exists in the table
+ex. 
+SELECT first_name
+FROM customers
+ORDER BY last_name
 
+u can also sort by alias
+ex.
+SELECT first_name, 
+	   last_name, 
+       points * 2 AS double_points
+FROM customers
+ORDER BY double_points DESC
 
+SELECT *
+FROM order_items
+WHERE order_id = 2 
+ORDER BY (unit_price * quantity) DESC
+
+LIMIT - limits the number of record produces
+LIMIT 3 - only shows 3 records
+LIMIT 6, 3 - skips the first 6 records, then takes the next 3 records. 6 - offset
 
